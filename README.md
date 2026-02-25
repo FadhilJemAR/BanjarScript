@@ -64,7 +64,10 @@ _(Lalu Reload/Restart VS Code kamu)_
 | `dan`                      | `&&`          | Operator logika DAN               |
 | `atau`                     | `\|\|`        | Operator logika ATAU              |
 | `bukan`                    | `!`           | Operator TIDAK / Bukan            |
-
+`perubahan`                | `switch`      | Mengecek Ekspresi |
+`kasus`                      | `case`        | Mengecek kondisi nilai hasil ekspresi dari `perubahan`  |
+`hancurakan`                 | `break`      | Mengakhiri eksekusi dari blok kasus |
+`dasarnya`                   | `default`    | Jika kondisi hasil ekspresi tidak masuk ke block `kasus`, ini mirip seperti `nanglain` 
 ---
 
 ## 💻 Contoh Program
