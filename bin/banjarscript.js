@@ -32,12 +32,14 @@ function copyRecursiveSync(src, dest) {
 
 const args = process.argv.slice(2);
 if (args.length === 0 || args.includes("--help")) {
+  //dijalankan ketika pengguna mengetik argumen --help atau ketika tidak memasukkan argumen
   printHelp();
   process.exit(0);
 }
 
 // Handle Setup Command
 if (args[0] === "setup" || args[0] === "setup-vscode") {
+  //dijalankan ketika pengguna melakukan setup extensi 
   console.log("🛠️  Sedang menyiapkan BanjarScript untuk VS Code...");
   
   const homeDir = process.env.HOME || process.env.USERPROFILE;
